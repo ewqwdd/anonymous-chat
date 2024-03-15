@@ -1,0 +1,21 @@
+{
+  "name": "anonymous-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.11.0"
+  }
+}
